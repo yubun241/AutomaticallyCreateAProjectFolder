@@ -1,2 +1,30 @@
-# AutomaticallyCreateAProjectFolder
+## AutomaticallyCreateAProjectFolder
 自動でスクリプトのプロジェクトフォルダを作成するバッチファイルです。
+
+python等でスクリプトを作成する際に必要になるディレクトリ構造をバッチで作成します。
+
+## 生成フォルダの内容
+make.batをで動作しますが、仮想クラウド環境の場合は、makeDir.batを使ってください。
+
+生成構造
+
+project
+
+-data
+
+-src
+
+-temp
+
+-result
+
+になります。
+
+
+data：inputDataを格納してください
+
+src:ソースコードを格納してください
+
+temp：1時的に出力する中間ファイルを格納して下さい
+
+result：結果を格納してください
