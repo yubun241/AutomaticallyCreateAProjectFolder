@@ -1,0 +1,2 @@
+# AutomaticallyCreateAProjectFolder
+自動でスクリプトのプロジェクトフォルダを作成するバッチファイルです。
